@@ -24,14 +24,34 @@ The baseline provided bythe organizers for this task uses Naive Bayes with TFIDF
 
 | **Ensembles**.        | **F1**     | **Precision**     | **Recall**     | **Accuracy**     |
 | ---------------       | ------     | -------------     | ----------     | ------------     |
-| Jocoso<sub>[1]</sub>  | **0.8850**     | 0.9198            |**0.8526**         | **0.8891**           |
+| Jocoso<sub>[1]</sub>  | **0.8850** | 0.9198            |**0.8526**      | **0.8891**       |
 | Jocoso<sub>[2]</sub>  | 0.8826     | 0.9194            | 0.8486         | 0.8871           |
 | Jocoso<sub>[3]</sub>  | 0.8822     | 0.9157            | 0.8509         | 0.8863           |
 | Jocoso<sub>[4]</sub>  | 0.8791     | 0.9176            | 0.8436         | 0.8840           |
-| Jocoso<sub>[5]</sub>  | 0.8777     | **0.9221**            | 0.8373         | 0.8833           |
+| Jocoso<sub>[5]</sub>  | 0.8777     | **0.9221**        | 0.8373         | 0.8833           |
 | Jocoso<sub>[6]</sub>  | 0.8758     | 0.9215            | 0.8343         | 0.8816           | 
 | Second Place          | 0.8716     |                   |                |                  |
 | Third Place           | 0.8700     |                   |                |                  |
 | BETO                  | 0.8687     | 0.9044            | 0.8356         |0.8736            |
 | mBERT                 | 0.8561     | 0.9137            | 0.8053         |0.8646            |
 | Baseline              | 0.6619     |                   |                |                  |
+
+
+# Task 2: Regression
+
+Similar to task 1, we use the Simple Transformers classification model,Clas-sificationModelfor this task. However, unlike Task 1, we use it with a regres-sion head i.e. we set the parameterregression = True. We used 6 pretrainedmodels  in  our  final  solution:-  Multilingual  Base  cased  BERT(**mBERT**),**ALBERT** base v2, **RoBERTa** base, **DistilBERT** base cased, **BETO** and **XLNet** base cased model. All these models were fine tunes on the trainingdata for 2 epochs without any preprocessing.
+
+### Task 2 Results
+
+| **Ensembles**.        | **RMSE**   |  
+| ---------------       | ------     |
+| First Place Solution |  0.6226 | 
+| Second Place Solution | 0.6246 | 
+| mBERT+ ALBERT + RoBERTa + DistilBERT + BETO + XLNet | **0.6295**|
+| BETO + mBERT + ALBERT |  0.6378|
+| BETO + DistilBERT | 0.6397|
+| BETO + ALBERT |  0.6391|
+| BETO + XLNet | 0.6400 |
+| BETO + mBERT |  0.6412|
+| Fourth Place Solution | 0.6587|
+| Baseline | 0.6704|
