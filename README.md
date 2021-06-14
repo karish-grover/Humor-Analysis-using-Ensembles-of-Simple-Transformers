@@ -1,4 +1,4 @@
-# HAHA@IberLEF2021
+# HAHA@IberLEF2021: Humor Analysis using Ensembles of Simple Transformers
 
 This is the offical repository for the paper **HAHA@IberLEF2021: Humor Analysis using Ensembles of Simple Transformers** by team **Jocoso**.
 
