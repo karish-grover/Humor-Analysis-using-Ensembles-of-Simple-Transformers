@@ -9,9 +9,9 @@ This paper describes the system submitted to the Humor Analysis based on Human A
 
 | Ensembles Used                               | Ensemble ID     |
 | ---------------                              | --------------- |
-| sBERT + mBERT + BETO + RoBERTa + NB          | Jocoso_{[1]}    |
+| sBERT + mBERT + BETO + RoBERTa + NB          | Jocoso<sub>[1]<\sub>    |
 | sBERT + mBERT + ALBERT + BETO + NB + RoBERTa | Jocoso_{[2]}    |
-| sBERT + mBERT + BETO + NB | Row 3 Column 2.  | Jocoso_{[3]}    |
+| sBERT + mBERT + BETO + NB                    | Jocoso_{[3]}    |
 | sBERT + mBERT +ALBERT + BETO + NB            | Jocoso_{[4]}    |
 | mBERT + BETO + sBERT + DeBERTa               | Jocoso_{[5]}    |
 | mBERT + BETO + ALBERT + sBERT                | Jocoso_{[6]}    |
