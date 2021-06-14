@@ -6,5 +6,23 @@ This paper describes the system submitted to the Humor Analysis based on Human A
 
 ## Competition Details and Data: https://www.fing.edu.uy/inco/grupos/pln/haha/
 
-| Default Header | Left Align | Right Align | Center Align |
-| --- | :-- | --: | :-: |
+| Ensembles Used | Ensemble ID |
+| sBERT + mBERT + BETO + RoBERTa + NB | Jocoso_{[1]} |
+
+\textbf{Ensembles Used} & \textbf{Ensemble ID}\smallskip\\ % inserts table
+%heading
+\hline% inserts single horizontal line
+Jocoso_{[1]} \, & sBERT + mBERT + BETO + RoBERTa + NB  \\
+Jocoso_{[2]} \, & sBERT + mBERT + ALBERT + BETO + NB + RoBERTa \\
+Jocoso_{[3]} \, & sBERT + mBERT + BETO + NB \\
+Jocoso_{[4]} \, & sBERT + mBERT +ALBERT + BETO + NB \\
+Jocoso_{[5]} \, & mBERT + BETO + sBERT + DeBERTa\cite{he2021deberta} + NB \\
+Jocoso_{[6]} \, & mBERT + BETO + ALBERT + sBERT  \\ % inserting body of the table
+% 2 & 47  \\[0.5ex]
+% 3 & 31 \\[0.5ex]
+% 4 & 35  \\[0.5ex]
+% 5 & 45 \\ [0.5ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
