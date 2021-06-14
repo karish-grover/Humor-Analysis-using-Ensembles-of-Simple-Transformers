@@ -55,3 +55,34 @@ Similar to task 1, we use the Simple Transformers classification model,Clas-sifi
 | BETO + mBERT |  0.6412|
 | Fourth Place Solution | 0.6587|
 | Baseline | 0.6704|
+
+
+# Task 3: Multi-class Classification
+
+Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisproblem of multi-class classification. We fine-tuned our model over the trainingcorpus which comprises of approx 4800 tweets for this task.
+
+### Task 3 Results
+
+| **Ensembles**.        | **Macro F1**   |  
+| ---------------       | ------     |
+| First Place Solution |  0.3396 | 
+| BETO - Cased | **0.2916**|
+| BETO - Cased + BETO - Uncased | 0.2636|
+| Third Place Solution |  0.2522|
+| Baseline | 0.1001|
+
+
+# Task 4: Multi-Label Classification
+
+Our  system  comprises  a  pre-trained  **Spanish  BETO**  cased  model  which  isfine-tuned  for  4  epochs  on  approximately  2000  tweets.  Various  ensembles  andtheir results are listed in the above table.
+
+### Task 4 Results
+
+| **Ensembles**.        | **RMSE**   |  
+| ---------------       | ------     |
+| First Place Solution | 0.4228 | 
+| BETO - Cased, Not Preprocessed  |**0.3578** | 
+| BETO - Cased, Preprocessed | 0.3569 | 
+| Third Place Solution | 0.3225 | 
+| Baseline | 0.0527 |
+
