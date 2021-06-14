@@ -74,7 +74,7 @@ Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisprobl
 
 # Task 4: Multi-Label Classification
 
-Our  system  comprises  a  pre-trained  **Spanish  BETO**  cased  model  which  isfine-tuned  for  4  epochs  on  approximately  2000  tweets.  Various  ensembles  andtheir results are listed in the above table.
+Our  system  comprises  a  pre-trained  **Spanish  BETO**  cased  model  which  is fine-tuned  for  4  epochs  on  approximately  2000  tweets.  Various  ensembles  andtheir results are listed in the above table.
 
 ### Task 4 Results
 
