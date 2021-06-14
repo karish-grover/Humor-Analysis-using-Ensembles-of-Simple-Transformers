@@ -7,11 +7,11 @@ This paper describes the system submitted to the Humor Analysis based on Human A
 ## Competition Details and Data: https://www.fing.edu.uy/inco/grupos/pln/haha/
 
 
-| Ensembles Used                               | Ensemble ID     |
-| ---------------                              | --------------- |
-| sBERT + mBERT + BETO + RoBERTa + NB          | Jocoso<sub>[1]<\sub>    |
-| sBERT + mBERT + ALBERT + BETO + NB + RoBERTa | Jocoso_{[2]}    |
-| sBERT + mBERT + BETO + NB                    | Jocoso_{[3]}    |
-| sBERT + mBERT +ALBERT + BETO + NB            | Jocoso_{[4]}    |
-| mBERT + BETO + sBERT + DeBERTa               | Jocoso_{[5]}    |
-| mBERT + BETO + ALBERT + sBERT                | Jocoso_{[6]}    |
+| **Ensembles Used**                           | **Ensemble ID**     |
+| ---------------                              | ---------------     |
+| sBERT + mBERT + BETO + RoBERTa + NB          | Jocoso<sub>[1]</sub>|
+| sBERT + mBERT + ALBERT + BETO + NB + RoBERTa | Jocoso<sub>[2]</sub>|
+| sBERT + mBERT + BETO + NB                    | Jocoso<sub>[3]</sub>|
+| sBERT + mBERT +ALBERT + BETO + NB            | Jocoso<sub>[4]</sub>|
+| mBERT + BETO + sBERT + DeBERTa               | Jocoso<sub>[5]</sub>|
+| mBERT + BETO + ALBERT + sBERT                | Jocoso<sub>[6]</sub>|
