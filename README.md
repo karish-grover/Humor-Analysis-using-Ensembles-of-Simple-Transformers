@@ -24,7 +24,7 @@ The baseline provided bythe organizers for this task uses Naive Bayes with TFIDF
 
 | **Ensembles**.        | **F1**     | **Precision**     | **Recall**     | **Accuracy**     |
 | ---------------       | ------     | -------------     | ----------     | ------------     |
-| Jocoso<sub>[1]</sub>  | **0.8850**     | 0.9198            |** 0.8526**         | **0.8891**           |
+| Jocoso<sub>[1]</sub>  | **0.8850**     | 0.9198            |**0.8526**         | **0.8891**           |
 | Jocoso<sub>[2]</sub>  | 0.8826     | 0.9194            | 0.8486         | 0.8871           |
 | Jocoso<sub>[3]</sub>  | 0.8822     | 0.9157            | 0.8509         | 0.8863           |
 | Jocoso<sub>[4]</sub>  | 0.8791     | 0.9176            | 0.8436         | 0.8840           |
