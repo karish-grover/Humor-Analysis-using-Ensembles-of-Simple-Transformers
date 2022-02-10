@@ -59,7 +59,7 @@ Similar to task 1, we use the Simple Transformers classification model, Classifi
 
 # Task 3: Multi-class Classification
 
-Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisproblem of multi-class classification. We fine-tuned our model over the training corpus which comprises of approx 4800 tweets for this task.
+Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve this problem of multi-class classification. We fine-tuned our model over the training corpus which comprises of approx 4800 tweets for this task.
 
 ### Task 3 Results
 
