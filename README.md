@@ -2,14 +2,14 @@
 
 This is the offical repository for the paper **HAHA@IberLEF2021: Humor Analysis using Ensembles of Simple Transformers** by team **Jocoso**.
 
-This paper describes the system submitted to the Humor Analysis based on Human Annotation (HAHA) task at IberLEF 2021. This system achieved the highest results in the main task of binary classification(Task 1) and was based on an ensemble of pre-trained **multilingual BERT**, pre-trained Spanish BERT i.e. **BETO**, a variation of **BETO** finetuned for sentiment analysis, **RoBERTa**, and a naive **Bayes** classifier. Our models achieve the winning F1 Score of **0.8850** in the Binary Classification task, the second place macro F1 Scores of **0.2916** and **0.3578** in Multi-class Classification and Multi-label Classification tasks respectively, and the third place RMSE score of **0.6295** in the Regression task. 
+This paper describes the system submitted to the Humor Analysis based on Human Annotation (HAHA) task at IberLEF 2021. This system achieved the highest results in the main task of binary classification (Task 1) and was based on an ensemble of pre-trained **multilingual BERT**, pre-trained Spanish BERT i.e. **BETO**, a variation of **BETO** finetuned for sentiment analysis, **RoBERTa**, and a naive **Bayes** classifier. Our models achieve the winning F1 Score of **0.8850** in the Binary Classification task, the second place macro F1 Scores of **0.2916** and **0.3578** in Multi-class Classification and Multi-label Classification tasks respectively, and the third place RMSE score of **0.6295** in the Regression task. 
 
 **Competition Details and Data**: https://www.fing.edu.uy/inco/grupos/pln/haha/
 
 
 # Task 1: Binary Classification
 
-The baseline provided bythe organizers for this task uses Naive Bayes with TFIDF features for BinaryClassification of tweets. It achieves an F1 score of **0.6619** over the testing corpus.In the final solution, we tried a series of ensembles of pre-trained models. The model used in the final solution is an ensemble of 5 models.
+The baseline provided by the organizers for this task uses Naive Bayes with TFIDF features for Binary Classification of tweets. It achieves an F1 score of **0.6619** over the testing corpus.In the final solution, we tried a series of ensembles of pre-trained models. The model used in the final solution is an ensemble of 5 models.
 
 | **Ensembles Used**                           | **Ensemble ID**     |
 | ---------------                              | ---------------     |
@@ -39,7 +39,7 @@ The baseline provided bythe organizers for this task uses Naive Bayes with TFIDF
 
 # Task 2: Regression
 
-Similar to task 1, we use the Simple Transformers classification model,Clas-sificationModelfor this task. However, unlike Task 1, we use it with a regres-sion head i.e. we set the parameterregression = True. We used 6 pretrainedmodels  in  our  final  solution:-  Multilingual  Base  cased  BERT(**mBERT**),**ALBERT** base v2, **RoBERTa** base, **DistilBERT** base cased, **BETO** and **XLNet** base cased model. All these models were fine tunes on the trainingdata for 2 epochs without any preprocessing.
+Similar to task 1, we use the Simple Transformers classification model, Classification Model for this task. However, unlike Task 1, we use it with a regression head i.e. we set the parameter regression = True. We used 6 pretrained models  in  our  final  solution:-  Multilingual  Base  cased  BERT (**mBERT**),**ALBERT** base v2, **RoBERTa** base, **DistilBERT** base cased, **BETO** and **XLNet** base cased model. All these models were finetuned on the training data for 2 epochs without any preprocessing.
 
 ### Task 2 Results
 
@@ -59,7 +59,7 @@ Similar to task 1, we use the Simple Transformers classification model,Clas-sifi
 
 # Task 3: Multi-class Classification
 
-Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisproblem of multi-class classification. We fine-tuned our model over the trainingcorpus which comprises of approx 4800 tweets for this task.
+Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisproblem of multi-class classification. We fine-tuned our model over the training corpus which comprises of approx 4800 tweets for this task.
 
 ### Task 3 Results
 
@@ -74,7 +74,7 @@ Our model, with a Macro F1 score of **0.2916**, utilizes BETO to solve thisprobl
 
 # Task 4: Multi-Label Classification
 
-Our  system  comprises  a  pre-trained  **Spanish  BETO**  cased  model  which  is fine-tuned  for  4  epochs  on  approximately  2000  tweets.  Various  ensembles  andtheir results are listed in the above table.
+Our  system  comprises  a  pre-trained  **Spanish  BETO**  cased  model  which  is fine-tuned  for  4  epochs  on  approximately  2000  tweets.  Various  ensembles  and their results are listed in the above table.
 
 ### Task 4 Results
 
